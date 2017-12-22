@@ -35,10 +35,8 @@ import cn.lyh.spa.ptr.util.PtrLocalDisplay;
 
 /**
  * Fancy progress indicator for Material theme.
- * It's taken from {@link android.support.v4.widget}.
  * I've done some slight changes.
  *
- * @hide
  */
 public class MaterialProgressDrawable extends Drawable implements Animatable {
 
