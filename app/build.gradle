@@ -1,11 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 30
+    namespace 'cn.lyh.spa.myptr'
+    compileSdk 34
     defaultConfig {
         applicationId "cn.lyh.spa.myptr"
-        minSdkVersion 15
-        targetSdkVersion 30
+        minSdk 15
+        targetSdk 34
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
@@ -21,6 +22,6 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation project(':ultra-ptr')
 }
